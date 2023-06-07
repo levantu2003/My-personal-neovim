@@ -1,4 +1,4 @@
-# Neovim (Lazynvim)
+# Neovim (Lazynvim) (For Windows only)
 ## Need to install those things to make null-ls (code formatter) works
 **Eslint (For Javascript, React)**
 
