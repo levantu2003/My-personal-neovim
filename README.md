@@ -1,23 +1,27 @@
-# Neovim (Lazynvim) (For Windows only)
+# Neovim (Lazynvim) (Arch Linux)
+
 ## Need to install those things to make null-ls (code formatter) works
-**Eslint (For Javascript, React)**
+
+**Prettier (For web)**
 
 ```
-npm init @eslint/config
+yay -S prettier
 ```
 
 **Stylua (For lua)**
+
 ```
-scoop bucket add main 
-scoop install main/stylua 
-```
-**Uncrustify (For C, C++, C#, Java)**
-```
-scoop bucket add main
-scoop install main/uncrustify
-```
-***Yapf (For Python)***
-``` 
-pip install yapf 
+yay -S stylua
 ```
 
+**Uncrustify (For C, C++, C#, Java)**
+
+```
+yay -S uncrustify
+```
+
+**_Yapf (For Python)_**
+
+```
+yay -S yapf
+```
